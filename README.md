@@ -112,30 +112,44 @@ math-routing-agent/
 ├── backend/
 │ ├── routes/
 │ │ ├── init.py
-│ │ └── math_routes.py # API endpoint definitions
+│ │ └── math_routes.py
 │ ├── services/
 │ │ ├── init.py
-│ │ ├── guardrail_service.py # Input validation & filtering
-│ │ ├── output_guardrail_service.py # Response validation
-│ │ ├── vector_service.py # ChromaDB vector search
-│ │ ├── mcp_service.py # Web search integration
-│ │ ├── llm_service.py # Groq LLaMA 3.1 integration
-│ │ ├── feedback_service.py # User feedback collection
-│ │ ├── dspy_module.py # DSPy prompt optimization
-│ │ └── benchmark_service.py # JEE Bench evaluation
+│ │ ├── benchmark_service.py
+│ │ ├── dspy_module.py
+│ │ ├── feedback_service.py
+│ │ ├── guardrail_service.py
+│ │ ├── kb_service.py
+│ │ ├── llm_service.py
+│ │ ├── mcp_service.py
+│ │ ├── output_guardrail_service.py
+│ │ ├── vector_service.py
+│ │ └── web_search_service.py
 │ ├── models/
 │ │ └── init.py
 │ ├── utils/
 │ │ ├── init.py
-│ │ └── guardrails.py # Utility functions
-│ └── main.py # FastAPI application entry
+│ │ └── guardrails.py
+│ └── main.py
 ├── frontend/
-│ └── index.html # User interface
-├── requirements.txt # Python dependencies
+│ └── index.html
+├── requirements.txt
 ├── .gitignore
 └── README.md
 
 text
+
+**Key Components:**
+
+| Directory/File | Purpose |
+|---------------|---------|
+| `backend/routes/` | API endpoint definitions |
+| `backend/services/` | Core business logic and AI services |
+| `backend/models/` | Data models |
+| `backend/utils/` | Helper functions and utilities |
+| `backend/main.py` | FastAPI application entry point |
+| `frontend/` | User interface (HTML/CSS/JS) |
+| `requirements.txt` | Python dependencies |
 
 ## 🔌 API Endpoints
 
