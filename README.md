@@ -215,14 +215,27 @@ This evaluates the system on JEE-level problems and outputs performance metrics.
 
 ## 🎓 Supported Subjects
 
-- **Mathematics** (Classes 9-12)
-  - Algebra, Trigonometry, Calculus, Geometry
-  
-- **Physics** (Classes 9-12)
-  - Mechanics, Optics, Electricity, Modern Physics
-  
-- **Chemistry** (Classes 9-12)
-  - Physical Chemistry, Organic Chemistry, Inorganic Chemistry
+This system is **primarily focused on Mathematics** for competitive exam preparation.
+
+### **Mathematics (Classes 9-12 + JEE)**
+- **Core Topics:**
+  - Algebra (Equations, Inequalities, Functions)
+  - Trigonometry (Identities, Equations, Inverse Functions)
+  - Calculus (Limits, Derivatives, Integration, Differential Equations)
+  - Coordinate Geometry (Lines, Circles, Conic Sections)
+  - Vectors & 3D Geometry
+  - Probability & Statistics
+  - Number Theory & Combinatorics
+
+- **JEE-Specific Coverage:**
+  - Advanced problem-solving techniques
+  - Multiple-choice question patterns
+  - Time-efficient solving strategies
+  - Formula derivations and applications
+
+### **Note:**
+While the architecture supports Physics and Chemistry formulas, the current implementation is **optimized for Mathematics** with a focus on JEE preparation.
+
 
 ## 🔒 Security Features
 
