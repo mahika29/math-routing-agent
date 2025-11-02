@@ -1,0 +1,31 @@
+# FastAPI and Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# AI/ML Core
+groq==0.4.1
+dspy-ai==2.4.0
+
+# Vector Database
+chromadb==0.4.22
+
+# Embeddings
+sentence-transformers==2.3.1
+
+# Data Handling
+pandas==2.1.4
+numpy==1.26.3
+
+# HTTP and API
+httpx==0.26.0
+requests==2.31.0
+
+# File Handling
+python-multipart==0.0.6
+
+# Optional (for extended functionality)
+# openai==1.10.0
+# anthropic==0.18.0
